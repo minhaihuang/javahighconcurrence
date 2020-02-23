@@ -17,8 +17,9 @@ public class ThreadPriority {
         high.setPriority(Thread.MAX_PRIORITY); // 最高优先级
         low.setPriority(Thread.MIN_PRIORITY); // 最低优
         // 先级
-        high.start();
         low.start();
+        high.start();
+
 
         // 一般都是高优先级的先完成任务
     }
